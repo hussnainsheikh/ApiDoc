@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ApiDOC</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <script type="application/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="application/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1"><span
+                            class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+                            class="icon-bar"></span><span class="icon-bar"></span></button>
+                    <a class="navbar-brand" href="#">ApiDOC</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control input-sm" style="margin-top: 2px;"
+                                       placeholder="Search"/>
+                            </div>
+                        </form>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div class="col-md-12">
+            <div class="col-md-2" style="padding-left: 0px;">
+                <div class="panel panel-default">
+                    <div class="panel-heading librePanelHeading">
+                        <div class="panel-title">
+                            <b class="pull-right glyphicon glyphicon-folder-close libreMenuIcon"></b>
+
+                            <a data-toggle="collapse" href="#menuPanelListGroup">
+                                <span>FlyTable</span>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="list-group collapse in" id="menuPanelListGroup">
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Introduction</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Overview</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Appearance</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Walkthrough</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Editing</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Localization</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <a href="api.html">
+                                <span>API</span>
+                                <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="panel-heading librePanelHeading">
+                        <div class="panel-title">
+                            <b class="pull-right glyphicon glyphicon-facetime-video libreMenuIcon"></b>
+
+                            <a data-toggle="collapse" href="#menu2PanelListGroup">
+                                <span>Staty</span>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="list-group collapse out" id="menu2PanelListGroup">
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Introduction</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Overview</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Appearance</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Walkthrough</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Editing</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Localization</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                    </ul>
+
+                    <div class="panel-heading librePanelHeading">
+                        <div class="panel-title">
+                            <b class="pull-right glyphicon glyphicon-facetime-video libreMenuIcon"></b>
+
+                            <a data-toggle="collapse" href="#menu3PanelListGroup">
+                                <span>REST WS</span>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="list-group collapse out" id="menu3PanelListGroup">
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Introduction</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+                            <span>Overview</span>
+                            <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                        </li>
+                        <li class="list-group-item librePanelListGroupItem">
+
+                            <a href="service.html">
+                                <span>Service List</span>
+                                <b class="pull-right glyphicon glyphicon-chevron-right"></b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="row clearfix">
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Configurations</a>
+                        <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Fields</a>
+                        <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Methods</a>
+                        <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Events</a>
+                        <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row clearfix" style="margin-top: 20px;">
+                    <legend>
+                        <h1>Configurations
+                        </h1>
+                    </legend>
+                    <blockquote>
+                        <p><i class="glyphicon glyphicon-ok-circle" style="margin-right: 10px"></i>Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+                    <p>
+                        Vestibulum erat tortor, gravida eget orci id, lacinia finibus est. Morbi posuere bibendum leo,
+                        quis rutrum tortor facilisis non. Curabitur gravida nulla ante. Aliquam erat volutpat. Maecenas
+                        id nisl egestas, ullamcorper ligula sit amet, lacinia turpis. Ut eget arcu aliquet, semper eros
+                        luctus, euismod sem. Mauris non velit neque. Donec porttitor diam et est commodo consequat. Sed
+                        ut eros in quam euismod lobortis. Nam vitae neque nec diam cursus feugiat nec at ipsum. Fusce
+                        gravida ex augue, in maximus nisl dignissim nec. Morbi nisl mauris, fermentum consectetur sapien
+                        nec, viverra pellentesque nisl. Nunc id neque justo. Quisque ultrices massa massa. Duis aliquet
+                        dui blandit ipsum tincidunt, vitae maximus lacus auctor. Praesent id condimentum ante.
+                    </p>
+
+                    <legend>
+                        <h1>
+                            <small>Basic Usage</small>
+                        </h1>
+                    </legend>
+                    <p>
+                        Suspendisse potenti. Aliquam erat volutpat. Morbi tempus elementum gravida. Phasellus imperdiet
+                        risus sit amet justo volutpat, varius commodo neque laoreet. Duis at nisi mi. Nulla lacinia,
+                        turpis et dignissim ultrices, turpis leo ultricies enim, sit amet imperdiet nisi odio nec urna.
+                        Integer ultricies elit non erat tempor porttitor.
+                    </p>
+                    <script src="https://gist.github.com/gunerkaanalkim/370fd7175c6bdb1215d9.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
